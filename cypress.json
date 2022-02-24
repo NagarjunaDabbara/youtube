@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://www.youtube.com/channel/UCknNrt5oVe-gW3d3_oN6fqw/playlists",
+  "chromeWebSecurity": false,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+          "reportDir": "cypress/reports",
+          "repoertFilename":"report",
+          "quite": true,
+          "overwrite": false,
+          "html": true,
+          "json": false,
+          "charts":true
+      },
+      "video":false
+    }
